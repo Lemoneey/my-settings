@@ -1,0 +1,53 @@
+{
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "terminal.integrated.profiles.linux": "/usr/bin/zsh",
+    "prettier.useTabs": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": true,
+    "editor.columnSelection": false,
+    "editor.tabSize": 2,
+    "editor.cursorSurroundingLines": 8,
+    "editor.minimap.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "javascript.autoClosingTags": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.autoClosingTags": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "prettier.tabWidth": 4,
+    "scm.autoReveal": false,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "workbench.sideBar.location": "right",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "json.schemas": [],
+    "vim.handleKeys": {
+        "<C-w>": false,
+    },
+    "vim.leader": "<Space>",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+          "before": ["j", "k"],
+          "after": ["<ESC>"]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+}
