@@ -28,7 +28,6 @@
     },
     "javascript.autoClosingTags": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.autoClosingTags": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "prettier.tabWidth": 4,
     "scm.autoReveal": false,
@@ -50,4 +49,12 @@
         }
     ],
     "vim.useSystemClipboard": true,
+    "typescript.autoClosingTags": false,
+    "auto-close-tag.activationOnLanguage": [
+        "html",
+        "xml",
+        "javascript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
 }
