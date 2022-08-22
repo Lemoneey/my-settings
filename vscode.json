@@ -39,13 +39,19 @@
     "git.confirmSync": false,
     "json.schemas": [],
     "vim.handleKeys": {
-        "<C-w>": false,
+        "<C-w>": false
     },
     "vim.leader": "<Space>",
     "vim.insertModeKeyBindingsNonRecursive": [
         {
           "before": ["j", "k"],
           "after": ["<ESC>"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["p"],
+            "after": ["p", "g", "v", "y"]
         }
     ],
     "vim.useSystemClipboard": true,
@@ -58,8 +64,5 @@
         "typescriptreact"
     ],
     "terminal.integrated.fontSize": 15,
-    "editor.experimental.stickyScroll.enabled": true,
-    "terminal.integrated.env.linux": {
-    
-    },
+    "editor.experimental.stickyScroll.enabled": true
 }

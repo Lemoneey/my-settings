@@ -24,5 +24,6 @@ let g:regash256 = 1
 "mappings
 map <C-n> :NERDTreeToggle<CR>
 inoremap jk <esc>
+xnoremap p pgvy
 
 syntax on
