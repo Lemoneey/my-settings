@@ -6,7 +6,7 @@
     "prettier.useTabs": true,
     "explorer.confirmDragAndDrop": true,
     "explorer.autoReveal": false,
-    "explorer.confirmDelete": true,
+    "explorer.confirmDelete": false,
     "editor.columnSelection": false,
     "editor.tabSize": 2,
     "editor.cursorSurroundingLines": 8,
@@ -39,7 +39,7 @@
     "git.confirmSync": false,
     "json.schemas": [],
     "vim.handleKeys": {
-        "<C-w>": false
+        "<C-w>": false,
     },
     "vim.leader": "<Space>",
     "vim.insertModeKeyBindingsNonRecursive": [
@@ -51,7 +51,7 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": ["p"],
-            "after": ["p", "g", "v", "y"]
+            "after": ["p", "g", "v", "y"],
         }
     ],
     "vim.useSystemClipboard": true,
@@ -64,5 +64,14 @@
         "typescriptreact"
     ],
     "terminal.integrated.fontSize": 15,
-    "editor.experimental.stickyScroll.enabled": true
+    "editor.experimental.stickyScroll.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "emmet.showExpandedAbbreviation": "never",
+    "emmet.excludeLanguages": [
+        "markdown",
+        "javascript",
+        "javascriptreact",
+        "typescript"
+    ],
 }
